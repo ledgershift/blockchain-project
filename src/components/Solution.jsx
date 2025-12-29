@@ -20,14 +20,14 @@ const Solution = () => {
                         </div>
                         <h2 className="text-4xl md:text-5xl font-bold font-heading mb-8 leading-tight">
                             A Complete Blockchain Solution <br />
-                            <span className="gradient-text">Delivered in 7 Days</span>
+                            <span className="gradient-text">Delivered in 14 Days</span>
                         </h2>
                         <p className="text-gray-400 text-lg mb-10 leading-relaxed">
                             We provide everything you need to start using blockchain in production. No hidden costs, no recurring fees, and no vendor lock-in.
                         </p>
 
                         <div className="space-y-4">
-                            {['Fixed price of $999', 'Guaranteed 7-day delivery', 'Full Access to Codebase', 'Scalable architecture'].map((item, i) => (
+                            {['Fixed price of $999', 'Guaranteed 14-day delivery', 'Full Access to Codebase', 'Scalable architecture'].map((item, i) => (
                                 <div key={i} className="flex items-center space-x-3">
                                     <div className="w-5 h-5 rounded-full bg-blue-500/20 flex items-center justify-center">
                                         <Check className="w-3 h-3 text-blue-400" />

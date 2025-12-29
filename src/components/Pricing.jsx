@@ -18,7 +18,7 @@ const Pricing = () => {
             <div className="container mx-auto px-6">
                 <div className="text-center max-w-2xl mx-auto mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold font-heading mb-6">Simple, Transparent Pricing</h2>
-                    <p className="text-gray-400 text-lg">No subscriptions. No hourly billing. No surprises. Just enterprise-ready blockchain in 7 days.</p>
+                    <p className="text-gray-400 text-lg">No subscriptions. No hourly billing. No surprises. Just enterprise-ready blockchain in 14 days.</p>
                 </div>
 
                 <div className="max-w-4xl mx-auto">
@@ -41,7 +41,7 @@ const Pricing = () => {
                                 <a href="#consultation" className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-4 rounded-xl font-bold text-lg mb-4 transition-all">
                                     Get Started Now
                                 </a>
-                                <p className="text-center text-gray-500 text-sm">Delivery in 7 business days</p>
+                                <p className="text-center text-gray-500 text-sm">Delivery in 14 business days</p>
                             </div>
 
                             <div className="bg-white/5 p-8 rounded-2xl border border-white/5">

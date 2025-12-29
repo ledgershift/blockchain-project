@@ -11,7 +11,7 @@ const HowItWorks = () => {
         {
             number: '02',
             title: 'We Build & Deploy',
-            desc: 'Our experts set up the Hyperledger Fabric infrastructure and develop your chaincode in 7 days.',
+            desc: 'Our experts set up the Hyperledger Fabric infrastructure and develop your chaincode in 14 days.',
         },
         {
             number: '03',
@@ -24,7 +24,7 @@ const HowItWorks = () => {
         <section id="how-it-works" className="py-24 bg-[#05070a]">
             <div className="container mx-auto px-6">
                 <div className="text-center max-w-2xl mx-auto mb-20">
-                    <h2 className="text-3xl md:text-5xl font-bold font-heading mb-6">From Idea to Output in <span className="text-blue-500">one week.</span></h2>
+                    <h2 className="text-3xl md:text-5xl font-bold font-heading mb-6">From Idea to Output in <span className="text-blue-500">two weeks.</span></h2>
                     <p className="text-gray-400 text-lg">Our streamlined process ensures you get a production-ready blockchain without the usual delays.</p>
                 </div>
 

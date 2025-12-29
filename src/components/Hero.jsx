@@ -17,7 +17,7 @@ const Hero = () => {
                     >
                         <span className="text-blue-400 text-xs font-bold uppercase tracking-wider">Enterprise Blockchain Bundle</span>
                         <span className="w-1 h-1 bg-blue-500 rounded-full" />
-                        <span className="text-blue-200/60 text-xs">7-Day Delivery</span>
+                        <span className="text-blue-200/60 text-xs">14-Day Delivery</span>
                     </motion.div>
 
                     <motion.h1
@@ -27,7 +27,7 @@ const Hero = () => {
                         className="text-5xl md:text-7xl font-bold font-heading mb-6 tracking-tight"
                     >
                         Enterprise-Ready <br />
-                        <span className="gradient-text">Blockchain in 7 Days</span>
+                        <span className="gradient-text">Blockchain in 14 Days</span>
                     </motion.h1>
 
                     <motion.p
@@ -46,7 +46,7 @@ const Hero = () => {
                         className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
                     >
                         <a href="#pricing" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg inline-flex items-center justify-center transition-all shadow-lg shadow-blue-500/25">
-                            Get Blockchain in 7 Days
+                            Get Blockchain in 14 Days
                             <ArrowRight className="ml-2 w-5 h-5" />
                         </a>
                         <a href="#consultation" className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-bold text-lg inline-flex items-center justify-center transition-all">

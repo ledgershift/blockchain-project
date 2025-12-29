@@ -12,8 +12,9 @@ const Footer = () => {
                             <span className="text-xl font-bold font-heading tracking-tight">Ledger Shift</span>
                         </a>
                         <p className="text-gray-400 max-w-sm leading-relaxed mb-6">
-                            Enterprise-grade Hyperledger Fabric solutions delivered in 7 days. We simplify blockchain so you can build the future of decentralization.
+                            Enterprise-grade Hyperledger Fabric solutions delivered in 14 days. We simplify blockchain so you can build the future of decentralization.
                         </p>
+
                         <div className="flex space-x-4">
                             {[Twitter, Linkedin, Github].map((Icon, i) => (
                                 <a key={i} href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-all">

@@ -38,7 +38,7 @@ const ConsultationForm = () => {
                     <div className="grid lg:grid-cols-2 gap-16">
                         <div>
                             <h2 className="text-4xl font-bold font-heading mb-6 tracking-tight">
-                                Start Your <span className="gradient-text">7-Day Journey</span>
+                                Start Your <span className="gradient-text">14-Day Journey</span>
                             </h2>
                             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
                                 Share your project vision with us. Our experts will review your requirements and get back to you within 12 hours with a deployment plan.
@@ -46,7 +46,7 @@ const ConsultationForm = () => {
 
                             <div className="space-y-6">
                                 {[
-                                    { title: 'Fixed Delivery', desc: 'Guaranteed 7-day timeline from kickoff.' },
+                                    { title: 'Fixed Delivery', desc: 'Guaranteed 14-day timeline from kickoff.' },
                                     { title: 'Expert Review', desc: 'CTO-level direct consultation on your use case.' },
                                     { title: 'Zero Risk', desc: 'No commitment required for the initial discovery.' }
                                 ].map((item, i) => (
