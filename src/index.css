@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #0a0e17;
+  --color-accent: #3b82f6;
+  --color-teal: #14b8a6;
+}
+
+body {
+  @apply bg-[#0a0e17] text-white overflow-x-hidden;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom Gradients */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-400;
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl;
+}
+
+.glow-primary {
+  box-shadow: 0 0 50px -12px rgba(59, 130, 246, 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-heading {
+  font-family: 'Outfit', sans-serif;
+}
