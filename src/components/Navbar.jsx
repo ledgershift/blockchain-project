@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-[#0a0e17]/80 backdrop-blur-md border-b border-white/10 py-3' : 'bg-transparent py-5'}`}>
             <div className="container mx-auto px-6 flex justify-between items-center">
-                <a href="#" className="flex items-center space-x-2">
+                <a href="./" className="flex items-center space-x-2">
                     <Shield className="w-8 h-8 text-blue-500" />
                     <span className="text-xl font-bold font-heading tracking-tight">Ledger Shift</span>
                 </a>
