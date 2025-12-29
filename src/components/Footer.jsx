@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-4 gap-12 mb-16">
                     <div className="col-span-2">
-                        <a href="/" className="flex items-center space-x-2 mb-6">
+                        <a href="#" className="flex items-center space-x-2 mb-6">
                             <Shield className="w-8 h-8 text-blue-500" />
                             <span className="text-xl font-bold font-heading tracking-tight">Ledger Shift</span>
                         </a>
