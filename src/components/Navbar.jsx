@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import { Shield, Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -23,7 +24,7 @@ const Navbar = () => {
         <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-[#0a0e17]/80 backdrop-blur-md border-b border-white/10 py-3' : 'bg-transparent py-5'}`}>
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <Link to="/" className="flex items-center space-x-3">
-                    <img src="/logo.png" alt="Ledger Shift Logo" className="w-10 h-10 rounded-lg object-contain" />
+                    <img src="./logo.png" alt="Ledger Shift Logo" className="w-10 h-10 rounded-lg object-contain" />
                     <span className="text-xl font-bold font-heading tracking-tight text-white">Ledger Shift</span>
                 </Link>
 
