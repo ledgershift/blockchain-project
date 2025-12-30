@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Twitter, Linkedin, Github } from 'lucide-react';
+import { Shield, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -17,14 +17,8 @@ const Footer = () => {
                         </p>
 
                         <div className="flex space-x-4">
-                            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-all">
-                                <Twitter className="w-5 h-5" />
-                            </a>
                             <a href="https://www.linkedin.com/company/ledger-shift" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-all">
                                 <Linkedin className="w-5 h-5" />
-                            </a>
-                            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-all">
-                                <Github className="w-5 h-5" />
                             </a>
                         </div>
                     </div>
@@ -35,7 +29,7 @@ const Footer = () => {
                             <li><Link to="/#solution" className="hover:text-white transition-colors">Blockchain Bundle</Link></li>
                             <li><a href="#" className="hover:text-white transition-colors">Custom Chaincode</a></li>
                             <li><a href="#" className="hover:text-white transition-colors">API Integration</a></li>
-                            <li><a href="#" className="hover:text-white transition-colors">Cloud Deployment</a></li>
+                            <li><Link to="/#solution" className="hover:text-white transition-colors">AWS EKS Deployment</Link></li>
                         </ul>
                     </div>
 

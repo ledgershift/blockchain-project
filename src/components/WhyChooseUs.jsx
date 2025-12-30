@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
     const reasons = [
         { title: 'Enterprise-Grade Architecture', icon: ShieldCheck, desc: 'Designed for production environments, not just prototypes.' },
         { title: 'Clean and Secure APIs', icon: Cpu, desc: 'Secure REST wrappers that make blockchain feel like a standard DB.' },
-        { title: 'No Vendor Lock-in', icon: Key, desc: 'You control the code and the infrastructure. Move anywhere, anytime.' },
+        { title: 'AWS & EKS Native', icon: Key, desc: 'Optimized for AWS and EKS for maximum reliability and scalability.' },
         { title: 'Fast Time-to-Market', icon: Rocket, desc: 'Go from zero to live in 7 days. Skip the months of research.' },
         { title: 'Startup-Friendly Pricing', icon: DollarSign, desc: 'Fixed $999 one-time cost. Perfect for MVPs and team pilots.' },
         { title: 'Real Production Usage', icon: Zap, desc: 'Built using best practices used by Fortune 500 companies.' },

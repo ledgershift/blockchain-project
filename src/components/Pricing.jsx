@@ -8,7 +8,7 @@ const Pricing = () => {
         'Custom Chaincode Development',
         'REST API Adaptor Service',
         'Application Integration Support',
-        'Kubernetes / Cloud Deployment',
+        'Docker & AWS EKS Setup',
         'Technical Documentation',
         'Zero Recurring Fees',
         'Full Code Access'

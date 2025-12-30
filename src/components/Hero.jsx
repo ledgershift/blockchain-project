@@ -64,7 +64,7 @@ const Hero = () => {
                         {[
                             { label: 'Zero Recurring Fees', icon: Shield },
                             { label: 'Production Ready', icon: CheckCircle2 },
-                            { label: 'Cloud Agnostic', icon: Shield },
+                            { label: 'Docker & EKS Powered', icon: Shield },
                             { label: 'REST API Access', icon: CheckCircle2 },
                         ].map((item, i) => (
                             <div key={i} className="flex items-center space-x-2">
