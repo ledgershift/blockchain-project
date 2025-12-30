@@ -4,10 +4,12 @@ import Home from './Home';
 import About from './pages/About';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import ScrollToHash from './components/ScrollToHash';
 
 function App() {
   return (
     <Router>
+      <ScrollToHash />
       <div className="min-h-screen bg-[#0a0e17] text-white">
         <Routes>
           <Route path="/" element={<Home />} />

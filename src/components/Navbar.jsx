@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
 import { Shield, Menu, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [mobMenuOpen, setMobMenuOpen] = useState(false);
+    const navigate = useNavigate();
+    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => setIsScrolled(window.scrollY > 20);
@@ -23,11 +24,13 @@ const Navbar = () => {
     const handleNavClick = (e, id) => {
         e.preventDefault();
         setMobMenuOpen(false);
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+        if (location.pathname === '/') {
+            const element = document.getElementById(id);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
         } else {
-            window.location.href = `./#${id}`;
+            navigate(`/#${id}`);
         }
     };
 

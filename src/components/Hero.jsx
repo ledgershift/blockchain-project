@@ -1,6 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle2, Shield } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -45,13 +44,13 @@ const Hero = () => {
                         transition={{ delay: 0.3 }}
                         className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
                     >
-                        <a href="#pricing" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg inline-flex items-center justify-center transition-all shadow-lg shadow-blue-500/25">
+                        <Link to="/#pricing" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg inline-flex items-center justify-center transition-all shadow-lg shadow-blue-500/25">
                             Get Blockchain in 14 Days
                             <ArrowRight className="ml-2 w-5 h-5" />
-                        </a>
-                        <a href="#consultation" className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-bold text-lg inline-flex items-center justify-center transition-all">
+                        </Link>
+                        <Link to="/#consultation" className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-bold text-lg inline-flex items-center justify-center transition-all">
                             Request Free Consultation
-                        </a>
+                        </Link>
                     </motion.div>
 
                     <motion.div
