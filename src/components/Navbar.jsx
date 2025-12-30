@@ -31,11 +31,11 @@ const Navbar = () => {
                 {/* Desktop Nav */}
                 <div className="hidden md:flex items-center space-x-8">
                     {navLinks.map((link) => (
-                        <a key={link.name} href={`./${link.href}`} className="text-gray-400 hover:text-white transition-colors text-sm font-medium">
+                        <a key={link.name} href={`#/${link.href}`} className="text-gray-400 hover:text-white transition-colors text-sm font-medium">
                             {link.name}
                         </a>
                     ))}
-                    <a href="#pricing" className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all">
+                    <a href="#/#pricing" className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all">
                         Get Started
                     </a>
                 </div>
@@ -50,7 +50,7 @@ const Navbar = () => {
             {mobMenuOpen && (
                 <div className="md:hidden absolute top-full left-0 w-full bg-[#0a0e17] border-b border-white/10 flex flex-col p-6 space-y-4 animate-in fade-in slide-in-from-top-4">
                     {navLinks.map((link) => (
-                        <a key={link.name} href={`./${link.href}`} className="text-gray-400 hover:text-white pb-2" onClick={() => setMobMenuOpen(false)}>
+                        <a key={link.name} href={`#/${link.href}`} className="text-gray-400 hover:text-white pb-2" onClick={() => setMobMenuOpen(false)}>
                             {link.name}
                         </a>
                     ))}
