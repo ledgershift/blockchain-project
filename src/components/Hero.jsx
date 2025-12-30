@@ -1,3 +1,5 @@
+import React from 'react';
+import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle2, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
