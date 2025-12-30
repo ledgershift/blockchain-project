@@ -38,7 +38,7 @@ const Pricing = () => {
                                     <span className="text-gray-500 ml-2">/ one-time</span>
                                 </div>
 
-                                <a href="#consultation" className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-4 rounded-xl font-bold text-lg mb-4 transition-all">
+                                <a href="#/#consultation" className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center py-4 rounded-xl font-bold text-lg mb-4 transition-all">
                                     Get Started Now
                                 </a>
                                 <p className="text-center text-gray-500 text-sm">Delivery in 14 business days</p>
@@ -61,7 +61,7 @@ const Pricing = () => {
                     </div>
 
                     <div className="mt-12 text-center text-gray-500">
-                        <p>Need a custom enterprise solution? <a href="#consultation" className="text-blue-400 hover:underline">Contact us for custom quotes.</a></p>
+                        <p>Need a custom enterprise solution? <a href="#/#consultation" className="text-blue-400 hover:underline">Contact us for custom quotes.</a></p>
                     </div>
                 </div>
             </div>
