@@ -1,35 +1,22 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Problem from './components/Problem';
-import Solution from './components/Solution';
-import HowItWorks from './components/HowItWorks';
-import UseCases from './components/UseCases';
-import WhyChooseUs from './components/WhyChooseUs';
-import Pricing from './components/Pricing';
-import ConsultationForm from './components/ConsultationForm';
-import FAQ from './components/FAQ';
-
-import Footer from './components/Footer';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import About from './pages/About';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0a0e17] text-white">
-      <Navbar />
-      <main>
-        <Hero />
-        <Problem />
-        <Solution />
-        <HowItWorks />
-        <UseCases />
-        <WhyChooseUs />
-        <Pricing />
-        <ConsultationForm />
-        <FAQ />
-
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-[#0a0e17] text-white">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
