@@ -3,6 +3,15 @@ import { Shield, Twitter, Linkedin, Github } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+    const handleNavClick = (e, id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            e.preventDefault();
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+        // If element doesn't exist, let the normal href take over (which will go to /#id)
+    };
+
     return (
         <footer className="py-20 border-t border-white/10">
             <div className="container mx-auto px-6">
@@ -32,7 +41,7 @@ const Footer = () => {
                     <div>
                         <h4 className="font-bold mb-6">Solutions</h4>
                         <ul className="space-y-4 text-gray-400 text-sm">
-                            <li><a href="#/#solution" className="hover:text-white transition-colors">Blockchain Bundle</a></li>
+                            <li><a href="#solution" onClick={(e) => handleNavClick(e, 'solution')} className="hover:text-white transition-colors">Blockchain Bundle</a></li>
                             <li><a href="#" className="hover:text-white transition-colors">Custom Chaincode</a></li>
                             <li><a href="#" className="hover:text-white transition-colors">API Integration</a></li>
                             <li><a href="#" className="hover:text-white transition-colors">Cloud Deployment</a></li>
@@ -45,7 +54,7 @@ const Footer = () => {
                             <li><Link to="/about" className="hover:text-white transition-colors">About Us</Link></li>
                             <li><Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
                             <li><Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
-                            <li><a href="#/#faq" className="hover:text-white transition-colors">Support FAQ</a></li>
+                            <li><a href="#faq" onClick={(e) => handleNavClick(e, 'faq')} className="hover:text-white transition-colors">Support FAQ</a></li>
 
                         </ul>
                     </div>
