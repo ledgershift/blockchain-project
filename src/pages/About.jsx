@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
@@ -11,6 +12,11 @@ const About = () => {
 
     return (
         <div className="min-h-screen bg-[#0a0e17] text-white">
+            <Helmet>
+                <title>About Ledger Shift | Our Mission and Blockchain Expertise</title>
+                <meta name="description" content="Learn about Ledger Shift's mission to democratize enterprise blockchain with 14-day Hyperledger Fabric deployments on AWS." />
+                <link rel="canonical" href="https://ledgershift.github.io/blockchain-project/#/about" />
+            </Helmet>
             <Navbar />
             <main className="pt-32 pb-20">
                 <div className="container mx-auto px-6">

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ledgershift.github.io/blockchain-project/sitemap.xml
