@@ -25,35 +25,35 @@ const Terms = () => {
                             <section>
                                 <h2 className="text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
                                 <p>
-                                    By accessing and using Ledger Shift's services, you agree to be bound by these Terms of Service.
+                                    By accessing and using Ledger Shift's services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
                                 </p>
                             </section>
 
                             <section>
-                                <h2 className="text-2xl font-bold text-white mb-4">2. Services</h2>
+                                <h2 className="text-2xl font-bold text-white mb-4">2. Service Description</h2>
                                 <p>
-                                    We provide a fixed-price Hyperledger Fabric blockchain bundle for $999. The service includes infrastructure setup, chaincode development, and API integration as described in our project solution.
+                                    Ledger Shift provides enterprise blockchain deployment services, specifically focusing on Hyperledger Fabric on AWS. The "14-Day Bundle" refers to the deployment of a standard production-ready network as defined in our service agreements.
                                 </p>
                             </section>
 
                             <section>
-                                <h2 className="text-2xl font-bold text-white mb-4">3. Delivery Timeline</h2>
+                                <h2 className="text-2xl font-bold text-white mb-4">3. Intellectual Property</h2>
                                 <p>
-                                    The 14-day delivery guarantee begins once all project requirements and access permissions are provided by the client. Delays in client feedback or access may affect this timeline.
+                                    All custom chaincode and integration logic developed for your specific deployment will be handed over to you with full access. Ledger Shift retains the rights to its pre-built infrastructure templates and internal libraries.
                                 </p>
                             </section>
 
                             <section>
-                                <h2 className="text-2xl font-bold text-white mb-4">4. Code Ownership</h2>
+                                <h2 className="text-2xl font-bold text-white mb-4">4. Payment Terms</h2>
                                 <p>
-                                    You have full access to the codebase and infrastructure we build for you. There is no vendor lock-in; you are free to migrate the infrastructure to any cloud provider at any time.
+                                    Our standard bundle is priced at $999. Payment terms are defined in individual service proposals, typically requiring an upfront commencement fee.
                                 </p>
                             </section>
 
                             <section>
                                 <h2 className="text-2xl font-bold text-white mb-4">5. Limitation of Liability</h2>
                                 <p>
-                                    Ledger Shift is not liable for any direct, indirect, or consequential damages resulting from the use of the blockchain infrastructure once delivered and signed off.
+                                    Ledger Shift is not liable for any indirect, incidental, or consequential damages arising out of the use or inability to use the blockchain network once deployed.
                                 </p>
                             </section>
                         </div>
