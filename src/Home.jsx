@@ -18,7 +18,7 @@ const Home = () => {
             <Helmet>
                 <title>Ledger Shift | Enterprise Hyperledger Fabric in 14 Days</title>
                 <meta name="description" content="Get a production-ready Hyperledger Fabric blockchain bundle in 14 days for $999. Enterprise-grade setup on AWS EKS with Docker and REST API." />
-                <link rel="canonical" href="https://ledgershift.github.io/blockchain-project/" />
+                <link rel="canonical" href="https://ledgershift.in/" />
 
                 {/* Structured Data */}
                 <script type="application/ld+json">

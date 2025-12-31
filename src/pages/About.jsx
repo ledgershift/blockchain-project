@@ -15,7 +15,7 @@ const About = () => {
             <Helmet>
                 <title>About Ledger Shift | Our Mission and Blockchain Expertise</title>
                 <meta name="description" content="Learn about Ledger Shift's mission to democratize enterprise blockchain with 14-day Hyperledger Fabric deployments on AWS." />
-                <link rel="canonical" href="https://ledgershift.github.io/blockchain-project/#/about" />
+                <link rel="canonical" href="https://ledgershift.in/#/about" />
             </Helmet>
             <Navbar />
             <main className="pt-32 pb-20">

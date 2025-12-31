@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://ledgershift.github.io/blockchain-project/</loc>
+        <loc>https://ledgershift.in/</loc>
         <lastmod>2025-12-31</lastmod>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://ledgershift.github.io/blockchain-project/#/about</loc>
+        <loc>https://ledgershift.in/#/about</loc>
         <lastmod>2025-12-31</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://ledgershift.github.io/blockchain-project/#/privacy</loc>
+        <loc>https://ledgershift.in/#/privacy</loc>
         <lastmod>2025-12-31</lastmod>
         <priority>0.50</priority>
     </url>
     <url>
-        <loc>https://ledgershift.github.io/blockchain-project/#/terms</loc>
+        <loc>https://ledgershift.in/#/terms</loc>
         <lastmod>2025-12-31</lastmod>
         <priority>0.50</priority>
     </url>
